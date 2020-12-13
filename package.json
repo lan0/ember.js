@@ -1,6 +1,6 @@
 {
   "name": "ember-source",
-  "version": "3.11.1",
+  "version": "3.11.1-update-router-js+7be9c8ba",
   "description": "A JavaScript framework for creating ambitious web applications",
   "keywords": [
     "ember-addon"
@@ -157,7 +157,7 @@
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.3",
     "route-recognizer": "^0.3.4",
-    "router_js": "lan0/router.js#4d02ede",
+    "router_js": "lan0/router.js#cdbff51",
     "rsvp": "^4.8.4",
     "semver": "^6.0.0",
     "serve-static": "^1.14.0",
@@ -172,5 +172,10 @@
   },
   "ember-addon": {
     "after": "ember-cli-legacy-blueprints"
+  },
+  "_originalVersion": "3.11.1",
+  "_versionPreviouslyCalculated": true,
+  "publishConfig": {
+    "tag": "update-router-js"
   }
 }
