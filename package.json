@@ -1,6 +1,6 @@
 {
   "name": "ember-source",
-  "version": "3.12.4",
+  "version": "3.12.4-router-js-on-3-12+cbcc3f17",
   "description": "A JavaScript framework for creating ambitious web applications",
   "keywords": [
     "ember-addon"
@@ -172,5 +172,10 @@
   },
   "ember-addon": {
     "after": "ember-cli-legacy-blueprints"
+  },
+  "_originalVersion": "3.12.4",
+  "_versionPreviouslyCalculated": true,
+  "publishConfig": {
+    "tag": "router-js-on-3-12"
   }
 }
